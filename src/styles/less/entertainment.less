@@ -1,0 +1,47 @@
+@import "var";
+@import "mixins";
+
+.carousel__item_bkg1{
+  .background_image("../images/carusel_1.png");
+}
+.carousel__item_bkg2{
+  .background_image("../images/carusel_2.png");
+}
+.carousel__item_bkg3{
+  .background_image("../images/carusel_3.png");
+}
+.carousel__reviews{
+  margin: 16px 18px 0px 263px;
+}
+.carousel__item{
+   padding: 20px;
+
+
+ }
+.carousel__reviews>div{
+  margin-top: 6px;
+}
+.entertainment__wrapper{
+  padding: 75px 0px;
+
+}
+.carousel__items{
+  .display_flex(flex, space-between, nowrap);
+}
+
+.reviews__text_white {
+  .fonts(14px, 'RobotoRegular', @font_color_white);
+}
+.carousel__title{
+  margin-top: 125px;
+  .fonts(14px, 'RobotoRegular', @font_color_white);
+  
+}
+.carousel__subtitle{
+  .fonts(36px, 'RobotoRegular', @font_color_white);
+ 
+  margin-top: 23px;
+}
+.carousel__item_arrow{
+  margin-top: 110px;
+}

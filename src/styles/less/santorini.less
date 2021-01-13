@@ -1,0 +1,76 @@
+@import "var";
+@import "mixins";
+
+.santorini{
+  background-color:#f6f6f6;
+}
+.santorini__wrapper{
+  .display_flex(flex, space-between, wrap );
+  padding-left: 110px;
+  padding-bottom: 58px;
+
+}
+.santorini__text{
+  padding: 156px 0 0 29px;
+
+}
+.santorini__slider{
+  padding-top: 46px;
+  .display_flex(flex, none, none)
+
+}
+.slider__image{
+  padding-left: 26px;
+  border-radius: 30%;
+}
+.btn_top{
+  padding:19px 79px;
+  margin-top: 52px;
+}
+.btn_padding{
+  padding: 19px 96px;
+}
+
+.description__title_grey{
+  color: @font_color_grey;
+}
+.description__subtitle_grey{
+  color: @font_color_grey;
+}
+.description__wrapper{
+  margin-top: 149px;
+}
+
+
+.slider__images{
+  .display_flex(flex, none, none)
+}
+
+
+.slider__switches{
+  .display_flex(flex, none, none);
+  margin-top: 45px;
+  margin-left: 20px;
+}
+.slider__switches>div{
+  margin-left: 8px;
+}
+.slider__switch{
+  border-radius: 50%;
+  background-color:@font_color_lite_grey;
+  width: 10px;
+  height: 10px;
+}
+
+.slider__switch_active{
+  border: 2px solid #3ec6ff;
+  background-color: @font_color_white;
+}
+.description__subtitle{
+  margin-top: 50px;
+}
+.description__btn{
+  margin-top: 50px;
+}
+
+

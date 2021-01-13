@@ -1,0 +1,76 @@
+@import "var";
+@import "mixins";
+
+.reviews__wrapper{
+  padding:37px 107px;
+  color: @font_color_grey;
+}
+
+.reviews__header{
+  .display_flex(flex, space-between, nowrap);
+  padding-bottom: 22.50px;
+}
+.reviews__options{
+  .display_flex(flex, none, nowrap);
+ 
+}
+.reviews__options>div{
+  margin-left: 18px;
+}
+.reviews-header__select{
+  .fonts(14px,'RobotoRegular', @font_color_grey);
+}
+.title_reviews{
+  font-size: 16px;
+  margin-top: 10px;
+}
+.btn_reviews{
+  background-color:@btn_bckground;
+  font-size: 14px;
+  padding: 12px 40px;
+  border: none;
+}
+.btn_grey{
+  color: @font_color_white;
+}
+.reviews__content{
+  .display_flex(flex, center, nowrap);
+  border-top: 2.50px solid #e2e2e2;
+  border-bottom: 2.50px solid #e2e2e2;
+}
+
+.reviews__item{
+  display: flex;
+  border-top: 2.50px solid #e2e2e2;
+}
+.reviews__item>div{
+  padding: 23px 0px;
+}
+.reviews__person{
+  display: flex;
+  padding-top: 15px;
+  border-right: 1.50px solid #e2e2e2;
+  margin: 16px 0px;
+}
+.reviews__description_indent{
+  padding-left: 17px;
+  padding-right: 73px;
+}
+.reviews__stars_indent{
+  margin-top: 27px;
+}
+.card__subtitle_review{
+  font-family: 'RobotoItalic';
+}
+.card__title_review{
+  font-size: 16px;
+  color: #000;
+
+}
+.reviews__item_noteLine{
+  border: none;
+}
+.reviews__footer{
+  text-align: center;
+  margin-top: 36px;
+}

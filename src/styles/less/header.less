@@ -1,0 +1,29 @@
+@import "var";
+@import "mixins";
+
+.header__logo{
+  .fonts(48px, 'KaushanScriptRegular', @btn_bckground);
+}
+.header{
+  background-color: @font_color_white;
+}
+.header__wrapper{
+  padding: 52px 0;
+  .display_flex(flex, space-around, wrap);
+}
+
+.menu__items{
+  display: flex;
+  margin-top: 15px;
+
+}
+.menu__item{
+  margin-left: 44px;
+  .fonts(18px, 'RobotoRegular', @font_color_black);
+  list-style: none;
+
+}
+
+.menu__item:hover{
+  cursor:pointer
+}

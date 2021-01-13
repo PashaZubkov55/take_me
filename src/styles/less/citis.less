@@ -1,0 +1,37 @@
+@import "var";
+@import "mixins";
+.cities{
+  background-color: @font_bckground_white;
+
+}
+
+.cities__cards{
+  .display_flex(flex, space-around, wrap);
+  padding: 83px 0px;
+}
+.card__wrapper{
+  margin-left: 27px;
+  margin-top: 33px;
+}
+.card__wrapper>div{
+  margin-top: 33px;
+}
+.card__title{
+.fonts(30px, 'RobotoRegular', @font_color_black)
+}
+.card__subtitle{
+  .fonts(16px, 'RobotoRegular', @font_color_grey)
+}
+.card__reviews{
+  display: flex;
+  justify-content: space-between;
+}
+.stars__items{
+  .display_flex(flex, none, nowrap)
+}
+.stars__item{
+  margin-left: 3px;
+}
+.reviews__text{
+color: @font_color_grey;
+}

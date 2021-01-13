@@ -1,0 +1,56 @@
+@import "var";
+@import "mixins";
+.location_bkg1{
+  .background_image("../images/hero_img.png")
+}
+
+.location_bkg2{
+  .background_image("../images/hero2_img.png")
+  
+}
+
+.location__wrapper{
+  padding: 210px  103px  210px 85px  ;
+}
+
+.description{
+   color: @font_color_white
+}
+
+
+
+.description__title{
+  .fonts(48px, 'RobotoBold', @font_color_white)
+}
+.description__subtitle{
+ .fonts(16px, 'RobotoRegular', none)
+}
+.description_center{
+  text-align: center;
+}
+
+
+
+.location__search{
+  margin-top: 77px;
+}
+
+.form-search__wrapper{
+ display: flex
+
+
+}
+.form-search__input {
+  .fonts(16px, 'RobotoRegular', @font_color_lite_grey );
+  margin-left: 23px;
+  padding: 19px 196px 19px 30px;
+}
+
+.btn_susses{
+  margin-left: 23px;
+  padding: 19px 61px;
+  background-color: @btn_bckground;
+  .fonts(16px, 'RobotoRegular', @font_color_white );
+  border-radius: 5px;
+
+}
